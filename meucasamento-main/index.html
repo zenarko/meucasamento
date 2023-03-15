@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite - Casório Gabriela e Marcelo</title>
+    <meta name="description" content="O tempo é muito lento para os que esperam
+    Muito rápido para os que têm medo
+    Muito longo para os que lamentam
+    Muito curto para os que festejam
+    Mas, para os que amam, o tempo é eterno.">
+    <meta name="keywords" content="Casamento, Casório, Marcelo e Gabriela">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta property="og:description" content="O tempo é muito lento para os que esperam
+    Muito rápido para os que têm medo
+    Muito longo para os que lamentam
+    Muito curto para os que festejam
+    Mas, para os que amam, o tempo é eterno.">
+    <link rel="stylesheet" href="./images/convite.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="540">
+
+    <link rel="icon" type="imagem/png" href="./images/circulo.png" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init('FeEnygvlY-WifaCXf');
+            })();
+        </script>
+</head>
+<body onLoad="updateCounter()">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <span>
+                    <img class="vertical-align" class="icons" src="./images/circulo1.png">
+                </span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Casório
+                        <br /> Gabriela
+                        <i style="color:#F34C4C" class="fas fa-heart"></i> Marcelo </h1>
+                    <b>
+                        <p style="text-shadow: 2px 2px #111;">
+                            O tempo é muito lento para os que esperam
+                            <br/>Muito rápido para os que têm medo
+                            <br/>Muito longo para os que lamentam
+                            <br/>Muito curto para os que festejam
+                            <br/>Mas, para os que amam, o tempo é eterno.
+                        </p>
+                        <p>Venha compartilhar conosco este dia tão importante!!!</p>
+                    </b>
+
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <b>
+                            <a href="#intro">Convite</a>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <a href="#about">Local e Horário</a>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <a href="#contact">Escreva-nos</a>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <a href="#elements">Presentes</a>
+                        </b>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Intro -->              
+            <article id="intro">
+                <h2 class="major">Convite</h2>
+                <span class="image main">
+                    <a target="_blank" href="./images/convite.png">
+                        <img src="./images/convite.png" alt="Convite Gabriela e Marcelo" />
+                    </a>
+                </span>
+                <p>O TEMPO É MUITO LENTO PARA OS QUE ESPERAM
+                    <br> MUITO RÁPIDO PARA OS QUE TÊM MEDO
+                    <br> MUITO LONGO PARA OS QUE LAMENTAM
+                    <br> MUITO CURTO PARA OS QUE FESTEJAM
+                    <br> MAS, PARA OS QUE AMAM, O TEMPO É ETERNO.
+                    <br>
+                    <br> VENHA COMPARTILHAR CONOSCO ESTE DIA TÃO IMPORTANTE!!!
+                </p>
+
+            </article>
+
+            <!-- About -->
+            <article id="about" style="font-size: 1.1rem">
+                <h2 class="major">Local e Horário</h2>
+                <span class="image main">
+                    <img style="height:200px" src="./images/ranchofestas.jpg" alt="" />
+                </span>
+                <p>
+                    <b>Local:</b>
+                    Racho Belo Festas
+                </p>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <b> Veja no Mapa:</b>
+                    <a href="https://goo.gl/maps/itmwPuQ8wJa7t69SA"
+                        target="_blank" style="text-decoration: none">&nbsp; R. Nove, 490 - Santa Rita,
+                        Barra Mansa - RJ, 27336-180</a>
+                </p>
+                <p>
+                    <i class="far fa-calendar-alt"></i>
+                    <span> 28 de Outubro de 2023</span>
+                    <i class="far fa-clock"></i>
+                    <time> 17:00 horas</time>
+                </p>
+                <p style="right: -20px; margin-top: 15px">
+                    <b style="font-size: 1.5rem">Faltam:&nbsp;&nbsp;
+                        <i class="far fa-calendar-alt"></i>
+                        <span id="counter"></span>
+                    </b>
+                </p>
+
+            </article>
+
+            <!-- Contact -->
+            <article id="contact">
+                <h2 class="major">Conte-nos Algo</h2>
+                <form>
+                    <div class="field half first">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="fullName" />
+                    </div>
+                    <div class="field half">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email_id">
+                    </div>
+                    <div class="field">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                    <ul class="actions">
+                        <li>
+                            <input type="button" onclick="SendMail()" value="Enviar Mensagem" class="special" />
+                        </li>
+                        <li>
+                            <input type="reset" value="Apagar Campos" />
+                        </li>
+                    </ul>
+                </form>
+                
+            </article>
+
+            <!-- Elements -->
+            <article id="elements">
+                <h2 class="major">Lista de Presentes</h2>
+                <section>
+
+                    <div class="table-wrapper">
+                        <table>
+                            <tbody style="font-size: 1.4rem;">
+                                <tr>
+                                    <td>Casas Bahia</td>
+                                    <td class="actions">
+                                        <a style="background: #0055B6; color: #FFF !important" href="https://casamento.casasbahia.com.br/#/lista-presentes/735371"
+                                            target="_blank" class="button special">
+                                            <i class="fas fa-gift"></i> Clique aqui</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Quero de Casamento</td>
+                                    <td class="actions">
+                                        <a style="background: #FF4B5E; color: #FFF !important" href="https://www.querodecasamento.com.br/lista-de-casamento/lorena--igor"
+                                            target="_blank" class="button special">
+                                            <i class="fas fa-gift"></i> Clique aqui</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Americanas</td>
+                                    <td class="actions">
+                                        <a style="background: #F90000; color: #FFF !important" href="https://listadecasamento.americanas.com.br/pages/GuestGiftListPage/currentPage/0/bridalRegistryId/01-02-16596641/itemsPerPage/50/"
+                                            target="_blank" class="button special">
+                                            <i class="fas fa-gift"></i> Clique aqui</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </section>
+            </article>
+
+        </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; Creted By Marcelo Zenarko</p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
+    <script src="assets/js/email.js"></script>
+
+</body>
+   
+</html>
