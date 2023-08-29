@@ -1060,7 +1060,7 @@
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1104,7 +1104,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/marcelo.jpg");
+			background-image: url("../../images/Pre\ Wedding\ Gabriela\ e\ Marcelo-11.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1614,3 +1614,17 @@
 				top: 50%;
 				transform: translateY(-50%); /* Adicionar os prefixos dos navegadores */
 		}
+
+/* fotos pré wedding */
+img{
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+section {
+	column-count: 1;
+	column-gap: 10px;
+}
+	
+
